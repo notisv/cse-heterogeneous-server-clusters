@@ -12,7 +12,7 @@ In this project, one uses the method of simulation to try to answer this questio
 3. To use statistically correct methods for analyzing the results of the simulation.
 
 In this project, one will use the Ciw simulation library to develop a simulator for the system described.<br>
-Ciw is a discrete event simulation library for open queuing networks..
+Ciw is a discrete event simulation library for open queuing networks.
 The core element of Ciw is the simulation object, which consists of a network of nodes.
 The simulation object consists of a network of nodes (nodes). Each node includes a distribution that describes the times between arrivals of new tasks, a distribution that describes the service times, and a number of processing units.
 In this project each node consists of 1 processing unit.
