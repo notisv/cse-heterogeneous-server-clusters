@@ -1,0 +1,9 @@
+# sim time in seconds - final sim time will include 1hr warmup and 1 hour cooldown time
+# RoutingDecision1 or RoutingDecision2
+# list of thresholds d - used only for RoutingDecision2 - e.x -256, -128, -64, -32, -16, -8, -4, -2, -1, 0, 1, 2, 4, 8, 16, 32, 64, 128, 256
+# Maximum number of trials in case confidence interval fails
+
+86400
+RoutingDecision2
+-1, 0, 1, 2
+10

@@ -1,0 +1,202 @@
+System Description:
+Node network: [Arrival Node, Node 1, Node 2, Node 3, Node 4, Node 5, Node 6, Node 7, Node 8, Node 9, Exit Node]
+Transitive node network: [Node 1, Node 2, Node 3, Node 4, Node 5, Node 6, Node 7, Node 8, Node 9]
+Arrival distributions and rates for each transitive node and customer class: {1: {0: Exponential: 0.25}, 2: {0: NoArrivals}, 3: {0: NoArrivals}, 4: {0: NoArrivals}, 5: {0: NoArrivals}, 6: {0: NoArrivals}, 7: {0: NoArrivals}, 8: {0: NoArrivals}, 9: {0: NoArrivals}}
+Service distributions and rates for each transitive node and customer class: {1: {0: Deterministic: 0.0}, 2: {0: Exponential: 0.125}, 3: {0: Exponential: 0.125}, 4: {0: Exponential: 0.125}, 5: {0: Exponential: 0.125}, 6: {0: Exponential: 0.125}, 7: {0: Exponential: 0.2}, 8: {0: Exponential: 0.2}, 9: {0: Exponential: 0.2}}
+Number of servers per transitive node: [Node 1: 1] [Node 2: 1] [Node 3: 1] [Node 4: 1] [Node 5: 1] [Node 6: 1] [Node 7: 1] [Node 8: 1] [Node 9: 1] 
+Queueing capacity per transitive node: [Node 1: inf] [Node 2: inf] [Node 3: inf] [Node 4: inf] [Node 5: inf] [Node 6: inf] [Node 7: inf] [Node 8: inf] [Node 9: inf] 
+Routing table:
+[[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+[[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+[[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+[[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+[[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+[[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+[[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+[[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+[[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+
+Simulation Parameters:
+Simulation time incl. 1hr warmup and  1hr cooldown (seconds): 93600
+Load balance algo: RoutingDecision2
+Threshold values: [-256, -128, -64, -32, -16, -8, -4, -2, -1, 0, 1, 2, 4, 8, 16, 32, 64, 128, 256]
+Maximum number of trials: 50
+
+Simulation results:
+
+////////////////////
+Algo: RoutingDecision2
+Threshold value: -256
+Avg wait time(ms): 1775.190
+Avg service rate(services/second): 40.027
+Avg total node util(percentage): 13.911
+Avg node util(percentage): {Node 1: '0.000', Node 2: '0.000', Node 3: '0.000', Node 4: '0.000', Node 5: '0.000', Node 6: '0.000', Node 7: '41.630', Node 8: '41.707', Node 9: '41.862'}
+////////////////////
+
+////////////////////
+Algo: RoutingDecision2
+Threshold value: -128
+Avg wait time(ms): 1775.190
+Avg service rate(services/second): 40.027
+Avg total node util(percentage): 13.911
+Avg node util(percentage): {Node 1: '0.000', Node 2: '0.000', Node 3: '0.000', Node 4: '0.000', Node 5: '0.000', Node 6: '0.000', Node 7: '41.630', Node 8: '41.707', Node 9: '41.862'}
+////////////////////
+
+////////////////////
+Algo: RoutingDecision2
+Threshold value: -64
+Avg wait time(ms): 1775.190
+Avg service rate(services/second): 40.027
+Avg total node util(percentage): 13.911
+Avg node util(percentage): {Node 1: '0.000', Node 2: '0.000', Node 3: '0.000', Node 4: '0.000', Node 5: '0.000', Node 6: '0.000', Node 7: '41.630', Node 8: '41.707', Node 9: '41.862'}
+////////////////////
+
+////////////////////
+Algo: RoutingDecision2
+Threshold value: -32
+Avg wait time(ms): 1775.190
+Avg service rate(services/second): 40.027
+Avg total node util(percentage): 13.911
+Avg node util(percentage): {Node 1: '0.000', Node 2: '0.000', Node 3: '0.000', Node 4: '0.000', Node 5: '0.000', Node 6: '0.000', Node 7: '41.630', Node 8: '41.707', Node 9: '41.862'}
+////////////////////
+
+////////////////////
+Algo: RoutingDecision2
+Threshold value: -16
+Avg wait time(ms): 1775.190
+Avg service rate(services/second): 40.027
+Avg total node util(percentage): 13.911
+Avg node util(percentage): {Node 1: '0.000', Node 2: '0.000', Node 3: '0.000', Node 4: '0.000', Node 5: '0.000', Node 6: '0.000', Node 7: '41.630', Node 8: '41.707', Node 9: '41.862'}
+////////////////////
+
+////////////////////
+Algo: RoutingDecision2
+Threshold value: -8
+Avg wait time(ms): 1775.190
+Avg service rate(services/second): 40.027
+Avg total node util(percentage): 13.911
+Avg node util(percentage): {Node 1: '0.000', Node 2: '0.000', Node 3: '0.000', Node 4: '0.000', Node 5: '0.000', Node 6: '0.000', Node 7: '41.630', Node 8: '41.707', Node 9: '41.862'}
+////////////////////
+
+////////////////////
+Algo: RoutingDecision2
+Threshold value: -4
+Avg wait time(ms): 1775.190
+Avg service rate(services/second): 40.027
+Avg total node util(percentage): 13.911
+Avg node util(percentage): {Node 1: '0.000', Node 2: '0.000', Node 3: '0.000', Node 4: '0.000', Node 5: '0.000', Node 6: '0.000', Node 7: '41.630', Node 8: '41.707', Node 9: '41.862'}
+////////////////////
+
+////////////////////
+Algo: RoutingDecision2
+Threshold value: -2
+Avg wait time(ms): 1775.190
+Avg service rate(services/second): 40.027
+Avg total node util(percentage): 13.911
+Avg node util(percentage): {Node 1: '0.000', Node 2: '0.000', Node 3: '0.000', Node 4: '0.000', Node 5: '0.000', Node 6: '0.000', Node 7: '41.630', Node 8: '41.707', Node 9: '41.862'}
+////////////////////
+
+////////////////////
+Algo: RoutingDecision2
+Threshold value: -1
+Avg wait time(ms): 1775.190
+Avg service rate(services/second): 40.027
+Avg total node util(percentage): 13.911
+Avg node util(percentage): {Node 1: '0.000', Node 2: '0.000', Node 3: '0.000', Node 4: '0.000', Node 5: '0.000', Node 6: '0.000', Node 7: '41.630', Node 8: '41.707', Node 9: '41.862'}
+////////////////////
+
+////////////////////
+Algo: RoutingDecision2
+Threshold value: 0
+Avg wait time(ms): 1436.310
+Avg service rate(services/second): 30.598
+Avg total node util(percentage): 18.144
+Avg node util(percentage): {Node 1: '0.000', Node 2: '20.480', Node 3: '20.630', Node 4: '20.628', Node 5: '20.595', Node 6: '20.493', Node 7: '20.141', Node 8: '20.210', Node 9: '20.118'}
+////////////////////
+
+////////////////////
+Algo: RoutingDecision2
+Threshold value: 1
+Avg wait time(ms): 1111.522
+Avg service rate(services/second): 29.368
+Avg total node util(percentage): 18.898
+Avg node util(percentage): {Node 1: '0.000', Node 2: '24.289', Node 3: '24.185', Node 4: '24.283', Node 5: '24.277', Node 6: '24.112', Node 7: '16.386', Node 8: '16.262', Node 9: '16.291'}
+////////////////////
+
+////////////////////
+Algo: RoutingDecision2
+Threshold value: 2
+Avg wait time(ms): 1025.709
+Avg service rate(services/second): 29.161
+Avg total node util(percentage): 19.030
+Avg node util(percentage): {Node 1: '0.000', Node 2: '24.847', Node 3: '24.823', Node 4: '24.880', Node 5: '24.740', Node 6: '24.797', Node 7: '15.815', Node 8: '15.645', Node 9: '15.722'}
+////////////////////
+
+////////////////////
+Algo: RoutingDecision2
+Threshold value: 4
+Avg wait time(ms): 999.396
+Avg service rate(services/second): 29.138
+Avg total node util(percentage): 19.047
+Avg node util(percentage): {Node 1: '0.000', Node 2: '24.974', Node 3: '24.886', Node 4: '24.953', Node 5: '24.844', Node 6: '24.902', Node 7: '15.703', Node 8: '15.552', Node 9: '15.612'}
+////////////////////
+
+////////////////////
+Algo: RoutingDecision2
+Threshold value: 8
+Avg wait time(ms): 998.323
+Avg service rate(services/second): 29.138
+Avg total node util(percentage): 19.047
+Avg node util(percentage): {Node 1: '0.000', Node 2: '24.973', Node 3: '24.892', Node 4: '24.952', Node 5: '24.846', Node 6: '24.904', Node 7: '15.700', Node 8: '15.550', Node 9: '15.604'}
+////////////////////
+
+////////////////////
+Algo: RoutingDecision2
+Threshold value: 16
+Avg wait time(ms): 998.323
+Avg service rate(services/second): 29.138
+Avg total node util(percentage): 19.047
+Avg node util(percentage): {Node 1: '0.000', Node 2: '24.973', Node 3: '24.892', Node 4: '24.952', Node 5: '24.846', Node 6: '24.904', Node 7: '15.700', Node 8: '15.550', Node 9: '15.604'}
+////////////////////
+
+////////////////////
+Algo: RoutingDecision2
+Threshold value: 32
+Avg wait time(ms): 998.323
+Avg service rate(services/second): 29.138
+Avg total node util(percentage): 19.047
+Avg node util(percentage): {Node 1: '0.000', Node 2: '24.973', Node 3: '24.892', Node 4: '24.952', Node 5: '24.846', Node 6: '24.904', Node 7: '15.700', Node 8: '15.550', Node 9: '15.604'}
+////////////////////
+
+////////////////////
+Algo: RoutingDecision2
+Threshold value: 64
+Avg wait time(ms): 998.323
+Avg service rate(services/second): 29.138
+Avg total node util(percentage): 19.047
+Avg node util(percentage): {Node 1: '0.000', Node 2: '24.973', Node 3: '24.892', Node 4: '24.952', Node 5: '24.846', Node 6: '24.904', Node 7: '15.700', Node 8: '15.550', Node 9: '15.604'}
+////////////////////
+
+////////////////////
+Algo: RoutingDecision2
+Threshold value: 128
+Avg wait time(ms): 998.323
+Avg service rate(services/second): 29.138
+Avg total node util(percentage): 19.047
+Avg node util(percentage): {Node 1: '0.000', Node 2: '24.973', Node 3: '24.892', Node 4: '24.952', Node 5: '24.846', Node 6: '24.904', Node 7: '15.700', Node 8: '15.550', Node 9: '15.604'}
+////////////////////
+
+////////////////////
+Algo: RoutingDecision2
+Threshold value: 256
+Avg wait time(ms): 998.323
+Avg service rate(services/second): 29.138
+Avg total node util(percentage): 19.047
+Avg node util(percentage): {Node 1: '0.000', Node 2: '24.973', Node 3: '24.892', Node 4: '24.952', Node 5: '24.846', Node 6: '24.904', Node 7: '15.700', Node 8: '15.550', Node 9: '15.604'}
+////////////////////
+
+Min wait time (ms): 998.323
+Threshold with min wait time: d = 8
+
+Max util (percentage): 19.047
+Threshold with max util: d = 4

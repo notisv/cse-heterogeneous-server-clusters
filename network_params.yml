@@ -1,0 +1,132 @@
+arrival_distributions:
+- - Exponential
+  - 0.25
+- - NoArrivals
+- - NoArrivals
+- - NoArrivals
+- - NoArrivals
+- - NoArrivals
+- - NoArrivals
+- - NoArrivals
+- - NoArrivals
+service_distributions:
+- - Deterministic
+  - 0.0
+- - Exponential
+  - 0.125
+- - Exponential
+  - 0.125
+- - Exponential
+  - 0.125
+- - Exponential
+  - 0.125
+- - Exponential
+  - 0.125
+- - Exponential
+  - 0.2
+- - Exponential
+  - 0.2
+- - Exponential
+  - 0.2
+number_of_servers:
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+queue_capacities:
+- "Inf"
+- "Inf"
+- "Inf"
+- "Inf"
+- "Inf"
+- "Inf"
+- "Inf"
+- "Inf"
+- "Inf"
+routing:
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0

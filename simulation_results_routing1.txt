@@ -1,0 +1,33 @@
+System Description:
+Node network: [Arrival Node, Node 1, Node 2, Node 3, Node 4, Node 5, Node 6, Node 7, Node 8, Node 9, Exit Node]
+Transitive node network: [Node 1, Node 2, Node 3, Node 4, Node 5, Node 6, Node 7, Node 8, Node 9]
+Arrival distributions and rates for each transitive node and customer class: {1: {0: Exponential: 0.25}, 2: {0: NoArrivals}, 3: {0: NoArrivals}, 4: {0: NoArrivals}, 5: {0: NoArrivals}, 6: {0: NoArrivals}, 7: {0: NoArrivals}, 8: {0: NoArrivals}, 9: {0: NoArrivals}}
+Service distributions and rates for each transitive node and customer class: {1: {0: Deterministic: 0.0}, 2: {0: Exponential: 0.125}, 3: {0: Exponential: 0.125}, 4: {0: Exponential: 0.125}, 5: {0: Exponential: 0.125}, 6: {0: Exponential: 0.125}, 7: {0: Exponential: 0.2}, 8: {0: Exponential: 0.2}, 9: {0: Exponential: 0.2}}
+Number of servers per transitive node: [Node 1: 1] [Node 2: 1] [Node 3: 1] [Node 4: 1] [Node 5: 1] [Node 6: 1] [Node 7: 1] [Node 8: 1] [Node 9: 1] 
+Queueing capacity per transitive node: [Node 1: inf] [Node 2: inf] [Node 3: inf] [Node 4: inf] [Node 5: inf] [Node 6: inf] [Node 7: inf] [Node 8: inf] [Node 9: inf] 
+Routing table:
+[[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+[[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+[[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+[[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+[[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+[[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+[[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+[[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+[[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+
+Simulation Parameters:
+Simulation time incl. 1hr warmup and  1hr cooldown (seconds): 93600
+Load balance algo: RoutingDecision1
+Threshold values: [-256, -128, -64, -32, -16, -8, -4, -2, -1, 0, 1, 2, 4, 8, 16, 32, 64, 128, 256]
+Maximum number of trials: 50
+
+Simulation results:
+
+////////////////////
+Algo: RoutingDecision1
+Avg wait time(ms): 2.208
+Avg service rate(services/second): 25.353
+Avg total node util(percentage): 21.922
+Avg node util(percentage): {Node 1: '0.000', Node 2: '66.697', Node 3: '53.407', Node 4: '37.921', Node 5: '22.946', Node 6: '11.778', Node 7: '3.271', Node 8: '1.016', Node 9: '0.264'}
+////////////////////

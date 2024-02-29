@@ -1,0 +1,67 @@
+System Description:
+Node network: [Arrival Node, Node 1, Node 2, Node 3, Node 4, Node 5, Node 6, Node 7, Node 8, Node 9, Exit Node]
+Transitive node network: [Node 1, Node 2, Node 3, Node 4, Node 5, Node 6, Node 7, Node 8, Node 9]
+Arrival distributions and rates for each transitive node and customer class: {1: {0: Exponential: 0.25}, 2: {0: NoArrivals}, 3: {0: NoArrivals}, 4: {0: NoArrivals}, 5: {0: NoArrivals}, 6: {0: NoArrivals}, 7: {0: NoArrivals}, 8: {0: NoArrivals}, 9: {0: NoArrivals}}
+Service distributions and rates for each transitive node and customer class: {1: {0: Deterministic: 0.0}, 2: {0: Exponential: 0.125}, 3: {0: Exponential: 0.125}, 4: {0: Exponential: 0.125}, 5: {0: Exponential: 0.125}, 6: {0: Exponential: 0.125}, 7: {0: Exponential: 0.2}, 8: {0: Exponential: 0.2}, 9: {0: Exponential: 0.2}}
+Number of servers per transitive node: [Node 1: 1] [Node 2: 1] [Node 3: 1] [Node 4: 1] [Node 5: 1] [Node 6: 1] [Node 7: 1] [Node 8: 1] [Node 9: 1] 
+Queueing capacity per transitive node: [Node 1: inf] [Node 2: inf] [Node 3: inf] [Node 4: inf] [Node 5: inf] [Node 6: inf] [Node 7: inf] [Node 8: inf] [Node 9: inf] 
+Routing table:
+[[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+[[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+[[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+[[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+[[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+[[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+[[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+[[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+[[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+
+Simulation Parameters:
+Simulation time incl. 1hr warmup and  1hr cooldown (seconds): 93600
+Load balance algo: RoutingDecision2
+Threshold values: [-1, 0, 1, 2]
+Maximum number of trials: 10
+
+Simulation results:
+
+////////////////////
+Algo: RoutingDecision2
+Threshold value: -1
+Avg wait time(ms): 373.632
+Avg service rate(services/second): 39.997
+Avg total node util(percentage): 13.906
+Avg node util(percentage): {Node 1: '0.000', Node 2: '0.000', Node 3: '0.000', Node 4: '0.000', Node 5: '0.000', Node 6: '0.000', Node 7: '60.267', Node 8: '41.441', Node 9: '23.446'}
+////////////////////
+
+////////////////////
+Algo: RoutingDecision2
+Threshold value: 0
+Avg wait time(ms): 3.621
+Avg service rate(services/second): 25.302
+Avg total node util(percentage): 21.988
+Avg node util(percentage): {Node 1: '0.000', Node 2: '66.760', Node 3: '53.375', Node 4: '38.235', Node 5: '23.005', Node 6: '11.844', Node 7: '3.341', Node 8: '1.053', Node 9: '0.281'}
+////////////////////
+
+////////////////////
+Algo: RoutingDecision2
+Threshold value: 1
+Avg wait time(ms): 2.318
+Avg service rate(services/second): 25.296
+Avg total node util(percentage): 21.998
+Avg node util(percentage): {Node 1: '0.000', Node 2: '66.781', Node 3: '53.405', Node 4: '38.266', Node 5: '23.034', Node 6: '11.874', Node 7: '3.307', Node 8: '1.038', Node 9: '0.280'}
+////////////////////
+
+////////////////////
+Algo: RoutingDecision2
+Threshold value: 2
+Avg wait time(ms): 2.318
+Avg service rate(services/second): 25.296
+Avg total node util(percentage): 21.998
+Avg node util(percentage): {Node 1: '0.000', Node 2: '66.781', Node 3: '53.405', Node 4: '38.266', Node 5: '23.034', Node 6: '11.874', Node 7: '3.307', Node 8: '1.038', Node 9: '0.280'}
+////////////////////
+
+Min wait time (ms): 2.318
+Threshold with min wait time: d = 1
+
+Max util (percentage): 21.998
+Threshold with max util: d = 1
